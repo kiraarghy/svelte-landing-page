@@ -1,7 +1,7 @@
 {
-    "name": "Your Great Site",
-    "short_name": "Site 😎",
-    "description": "Learn how to create and share something or other.",
+    "name": "Kara Stubbs' landing page",
+    "short_name": "Kara Stubbs",
+    "description": "A living shitpost.",
     "start_url": "/",
     "background_color": "#000000",
     "theme_color": "#0f4a73",
