@@ -124,7 +124,7 @@
   <section class="container">
     <h1 class="text heading">KARA STUBBS</h1>
     <p class="text left">SOFTWARE ENGINEER</p>
-    <p class="text right">REACT, JS, TYPESCRIPT</p>
+    <p class="text right">REACT, JS, GQL & TS</p>
     <p class="text bottom">
       <a href="https://twitter.com/kiraarghy" rel="noreferrer" target="_blank">
         TWITTER,
