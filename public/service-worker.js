@@ -1,14 +1,13 @@
 const cacheName = "KarasWebsite";
 
 var filesToCache = [
-    "./",
-    "./index.html",
-    "./bundle.css",
-    "./global.css",
-    "./bundle.js",
-    "./components.css",
-    "./profile.webp",
-    "./vector.svg",
+    "/index.html",
+    "/bundle.css",
+    "/global.css",
+    "/bundle.js",
+    "/profile.webp",
+    "/profile.png",
+    "/vector.svg",
     "https://fonts.googleapis.com/css?family=Lato&display=swap"
 ];
 self.addEventListener("install", function(e) {
