@@ -1,4 +1,5 @@
-var cacheName = "sgtoilet-cache-" + Date.now();
+const cacheName = "KarasWebsite";
+
 var filesToCache = [
     "/",
     "/index.html",
@@ -17,6 +18,11 @@ self.addEventListener("install", function(e) {
         })
     );
 });
+
+self.onactivate = function(event) {
+    console.log("sw is up and running!");
+};
+
 self.addEventListener("activate", e => {
     e.waitUntil(
         caches.keys().then(function(cacheNames) {
